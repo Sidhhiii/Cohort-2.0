@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}   
+
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(240, 230, 201);
+}
+
+.main-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 20p;
+}
+
+.main{  
+    margin-top: 20px;
+    height: 1000;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+    flex-wrap: nowrap;
+    overflow: auto;
+}
+
+.main::-webkit-scrollbar{
+    display: none;
+    /* background-color: rgb(226, 200, 151);  
+    height: 10px;  */
+}
+
+/* .main::-webkit-scrollbar-thumb{
+    background-color: rgb(114, 85, 32); 
+ } */
+
+.layout{
+    height: 270px;
+    width: 300px;
+    border-radius: 13px;
+    position: relative;
+    overflow: hidden;
+    margin-left: 1px;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 12px black;
+    flex-shrink: 0;
+}
+
+.layout img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    cursor: pointer;
+}
+
+.top-sec{
+    background: linear-gradient(to top, transparent, rgb(133, 132, 132));
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    height: 40%;
+    width: 100%;
+    position: absolute;
+    padding: 15px;
+    top: -40%;
+    transition: all 1s ease;
+}
+
+.top-sec i{
+    font-size: 15px;
+    margin-right: 3px;
+}
+
+.layout:hover .top-sec{
+    top: 0;
+    cursor: pointer;
+    color: black;
+}
+
