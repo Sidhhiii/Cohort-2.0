@@ -1,0 +1,218 @@
+@font-face {
+    font-family: apple;
+    src: url(download.woff);
+}
+
+@font-face {
+    font-family: medi;
+    src: url(medi.woff);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: apple;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.nav{
+    height: 44px;
+    width: 100%;
+    background-color: #181818;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    position: sticky;
+    top: 0;
+}
+
+.nav a{
+    text-decoration: none;
+    color: #c0c0c2;
+    font-size: 11px;
+    letter-spacing: 1px;
+    font-weight: 300px;
+}
+
+a i{
+    font-size: 16px ;
+}
+
+.offer{
+    padding: 15px;
+    background-color: #1d1d1f;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.hero-sec{
+    height: 600px;
+    width: 100%;
+    background-image: url(iphone.jpg);
+    background-position: center;
+    background-size: contain;
+}
+
+.next-sec, .ipad-sec{
+    height: 576px;
+    width: 100%;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.next-sec{
+    background-image: url(pinch.jpg);
+}
+
+.ipad-sec{
+    background-image: url(ipad.jpg);
+}
+
+.main-text{
+    padding: 40px;
+    text-align: center;
+    color: white;
+}
+
+.main-text .heading{
+    font-size: 57px;
+    font-weight: bolder;
+}
+
+.main-text p{
+    font-size: 28px;
+}
+
+.but{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 20px 22px;
+}
+
+.but1, .but2{
+    padding: 11.5px 22.5px;
+    font-size: 18px;
+    border-radius: 40px;
+}
+
+.but1{
+    background-color: royalblue;
+    border: none;
+    color: white;
+}
+
+.but2{
+    background-color: transparent;
+    border: 1px solid royalblue;
+    color: royalblue;
+}
+
+.but2:hover{
+     background-color: royalblue;
+     cursor: pointer;
+     color: white;
+}
+
+.next-sec p{
+    color: black;
+}
+
+.ipad-sec p{
+    color: black;
+}
+
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+    align-items: center;
+                     
+}
+
+.airpod, .watch, .pro, .macbook, .macbook-air, .phone{
+    margin-top: 13px;
+    padding: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 570px;
+    width: 48.5%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.macbook-air, .phone{
+    margin-bottom: 13px;
+}
+
+.airpod{
+    background-image: url(airpod.jpg);
+}
+
+.watch{
+    background-image: url(watch.jpg);
+}
+
+.pro{
+    color: white;
+    background-image: url(ipadpro.jpg);
+}
+
+.macbook{
+    color: white;
+    background-image: url(macbook.jpg);
+}
+
+.macbook-air{
+    background-image: url(macbook_Air.jpg);
+}
+
+.phone{
+    background-image: url(phone.jpg);
+}
+.container2 .heading{
+    font-size: 38px;
+    font-weight: bolder;
+    letter-spacing: 0.8px;
+    line-height: 1.6;
+    font-weight: 800;
+}
+
+.container2 p{
+    font-size: 20px;
+    line-height: 1.2;
+    /* font-weight: 600; */
+    /* letter-spacing: 2; */
+}
+
+.container2 .but1, .but2{
+    padding: 9px 18px;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+.watch span{
+    font-weight: 100;
+}
+
+
