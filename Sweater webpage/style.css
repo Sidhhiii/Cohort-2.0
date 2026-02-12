@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+@font-face {
+  font-family: morva;
+  src: url(MORVA.ttf);
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+}
+
+#navRight {
+  /* background-color: rgb(223, 130, 9); */
+  position: absolute;
+  right: 5%;
+  top: 5%;
+}
+
+.brandname {
+  position: absolute;
+  right: 45%;
+  top: 5%;
+}
+
+.brand {
+  font-family: morva;
+  font-weight: 100;
+  letter-spacing: 1.5px;
+  font-size: 30px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  margin-right: 30px;
+}
+
+#navLeft {
+  /* background-color: rgb(223, 130, 9); */
+  padding: 30px 70px;
+}
+
+#main > h1 {
+  font-size: 250px;
+  font-weight: 200;
+  text-align: center;
+}
+
+#productDis {
+  width: 300px;
+  padding-left: 70px;
+
+}
+
+.point1,
+.point2 {
+  margin-bottom: 7px;
+}
+
+.point1{
+    margin-top: 40px;
+}
+
+.point2{
+    margin-top: 20px;
+}
+
+.des {
+  font-size: 14px;
+}
+
+.img1, .img2, .img3{
+  background-size: cover;
+  position: absolute;
+}
+
+.img1{
+  top: 53%;
+  left: 54%;
+  height: 160px;
+  width: 140px;
+}
+
+.img2{
+  top: 64%;
+  left: 63%;
+  height: 160px;
+  width: 140px;
+}
+
+.img3{
+  top: 41.5%;
+  left: 70.5%;
+  height: 200px;
+  width: 150px;
+}
+
+.bottombar{
+  padding: 25px 70px;
+}
+
+.bottombar h3{
+  font-weight: 400;
+  font-style: italic;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.link{
+  font-size: 18px;
+  position: absolute;
+  bottom: 7%;
+  right: 4%;
+}
